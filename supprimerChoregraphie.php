@@ -1,5 +1,5 @@
 <?php
-
+include "header.php";
 // on récupère l'id
 $id = filter_input(INPUT_GET,"id",FILTER_VALIDATE_INT);
 include "config.php";
